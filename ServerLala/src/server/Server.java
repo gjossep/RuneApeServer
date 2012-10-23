@@ -136,7 +136,8 @@ try {
 		 
 		String ipAdress = "5.193.185.235"; 
 		//String ipAdress = "5.12.97.185"; Otto
-
+// random hello
+		
 		redirectSystemStreams();
 		Screen.start(textArea);
 		
