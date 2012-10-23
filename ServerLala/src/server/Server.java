@@ -134,8 +134,8 @@ try {
 		 * Starting Up Server
 		 */
 		 
-		String ipAdress = "5.193.185.235"; 
-		//String ipAdress = "5.12.97.185"; Otto
+		String ipAdress = "5.183.194.145"; 
+		//String ipAdress = "5.183.194.145"; Otto
 // random hello
 		
 		redirectSystemStreams();
