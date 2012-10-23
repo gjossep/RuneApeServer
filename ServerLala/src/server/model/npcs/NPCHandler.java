@@ -1848,8 +1848,8 @@ Server.npcHandler.npcs[npcs[i].attacknpc].attacknpc = i;
 			npcs[i].clearUpdateFlags();
 			if (npcs[i].walkingType == 0) {
 			    switch(npcs[i].npcType) {
-			        case 494: //id of npc
-			        if(npcs[i].absX == 3256 && npcs[i].absY == 3418) { //loc of npc
+			        case 599: //id of npc
+			        if(npcs[i].absX == 2604 && npcs[i].absY == 3099) { //loc of npc
 			 
 	                /** 
 			         * this turns the npc 
@@ -1858,7 +1858,7 @@ Server.npcHandler.npcs[npcs[i].attacknpc].attacknpc = i;
 			         * +1 to absY makes it face north and 
 			         * -1 to absY makes it face south.
 			         **/
-			            npcs[i].turnNpc(npcs[i].absX, npcs[i].absY+1); 
+			            npcs[i].turnNpc(npcs[i].absX, npcs[i].absY-1); 
 			 
 			         }
 			      break;

@@ -46,7 +46,7 @@ public void resetRanks() {
  }
  }
  public void highscores() {
- getPA().sendFrame126("TrisidiaX Top 10 Players", 6399);
+ getPA().sendFrame126("RuneApe Top 10 Players", 6399);
  for(int i = 0; i < 10; i++) {
  if(ranks[i] > 0) {
  getPA().sendFrame126("Rank "+(i+1)+": "+rankPpl[i]+ "- Total Level: " +ranks[i], 6402+i);
@@ -933,7 +933,7 @@ npcName = Server.npcHandler.getNpcListName(npcId);
 						disconnected = true;
 				}
 			}
-getPA().sendFrame126("TrisidiaX Top 10", 6399);
+getPA().sendFrame126("RuneApe Top 10", 6399);
 getPA().sendFrame126("Close Window", 6401);
  getPA().sendFrame126(" ", 6402);
  getPA().sendFrame126(" ", 6403);

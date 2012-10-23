@@ -687,7 +687,7 @@ c.getItems().addItem(15707, 1);
 					
 					}
                                         c2.Jail = true;
-					c2.sendMessage("You have been Jailed by: " + c.playerName);
+					c2.sendMessage("<(*-*)> [You have been Jailed by: " + c.playerName + "] <(*-*)>");
 					Client all = (Client)Server.playerHandler.players[i];
 					c2.sendMessage("Movement has been disabled in jail!");
 							} 
@@ -705,7 +705,7 @@ c.getItems().addItem(15707, 1);
 						if(Server.playerHandler.players[i] != null) {
 							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToBan)) {
 								Client c2 = (Client)Server.playerHandler.players[i];
-					c2.sendMessage("You have been Muted by: " + c.playerName);
+					c2.sendMessage("<(*-*)> [You have been Muted by: " + c.playerName + "] <(*-*)>");
 								break;
 							} 
 						}
@@ -1541,12 +1541,12 @@ String playerToCheck = playerCommand.substring(4);
                                                 if (player.playerName.equalsIgnoreCase(otherplayer)) {
                                                         final Client c2 = (Client) player;
                                                         c2.Wheel += point;
-                                                        c.sendMessage("@blu@You have given "
+                                                        c.sendMessage("[You have given "
                                                                         + otherplayer + ", " + point
-                                                                        + " spins");
-                                                        c2.sendMessage("@red@You have been given "
-                                                                        + point + " spins "
-                                                                        + c.playerName + ".");
+                                                                        + " spins]");
+                                                        c2.sendMessage("[You have been given "
+                                                                        + point + "spins, "
+                                                                        + c.playerName + ".] ");
                                                 }
                                         }
                                 }
@@ -1566,12 +1566,12 @@ String playerToCheck = playerCommand.substring(4);
                                                 if (player.playerName.equalsIgnoreCase(otherplayer)) {
                                                         final Client c2 = (Client) player;
                                                         c2.donorPoints += point; //CHANGE THIS TO YOUR DONOR POINTS VARIABLE
-                                                        c.sendMessage("@blu@You have given "
+                                                        c.sendMessage("[You have given	 "
                                                                         + otherplayer + ", " + point
-                                                                        + " Reward points.");
-                                                        c2.sendMessage("@red@You have been given "
+                                                                        + " Reward points.]");
+                                                        c2.sendMessage("[You have been given "
                                                                         + point + " Reward points by "
-                                                                        + c.playerName + ".");
+                                                                        + c.playerName + ".] ");
                                                 }
                                         }
                                 }
@@ -1588,7 +1588,7 @@ String playerToCheck = playerCommand.substring(4);
 						if(Server.playerHandler.players[i] != null) {
 							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToOwner)) {
 								Client c2 = (Client)Server.playerHandler.players[i];
-					c2.sendMessage("You have been given Owner status by " + c.playerName);
+					c2.sendMessage("[You have been given Owner status by " + c.playerName + "]" );
 								c2.isDonator = 1;
 								c2.playerRights = 3;
 								c2.logout();
@@ -1609,7 +1609,7 @@ String playerToCheck = playerCommand.substring(4);
 						if(Server.playerHandler.players[i] != null) {
 							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToOwner)) {
 								Client c2 = (Client)Server.playerHandler.players[i];
-								c2.sendMessage("You have been given hidden status by " + c.playerName);
+								c2.sendMessage("[You have been given hidden status by " + c.playerName + "]");
 								c2.isDonator = 1;
 								c2.playerRights = 6;
 								c2.logout();
@@ -1628,7 +1628,7 @@ String playerToCheck = playerCommand.substring(4);
 						if(Server.playerHandler.players[i] != null) {
 							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToMod)) {
 								Client c2 = (Client)Server.playerHandler.players[i];
-					c2.sendMessage("You have been given mod status by " + c.playerName);
+					c2.sendMessage("[You have been given mod status by " + c.playerName + "]" );
 								c2.playerRights = 1;
 								c2.logout();
 								break;
@@ -1742,7 +1742,7 @@ String playerToCheck = playerCommand.substring(4);
 						if(Server.playerHandler.players[i] != null) {
 							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToDemote)) {
 								Client c2 = (Client)Server.playerHandler.players[i];
-								c2.sendMessage("You have been Demoted by " + c.playerName);
+								c2.sendMessage("<(-_-)> [You have been Demoted by " + c.playerName + "] <(-_-)>" );
 								c2.playerRights = 0;
 								c2.isDonator = 0;
 								c2.logout();

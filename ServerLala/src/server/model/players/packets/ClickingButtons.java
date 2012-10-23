@@ -747,15 +747,15 @@ break;
 			c.getItems().addItem(15098, 1);
 				c.getPA().showInterface(8134);
 				c.getPA().sendFrame126("@blu@[Server]",8144); 
-				c.getPA().sendFrame126("@cya@[Server] Has Been Added By: Trisidia!",8145); 
+				c.getPA().sendFrame126("@cya@[Server] Has Been Added By: RuneApe!",8145); 
 				c.getPA().sendFrame126("@cya@It Announces Every 99 YOU get!",8147);
-				c.getPA().sendFrame126("@gre@-Trisidia",8148);
+				c.getPA().sendFrame126("@gre@-RuneApe",8148);
 				c.getPA().sendFrame126("",8149);
 				c.getPA().sendFrame126("",8150);
 			break;
 			
 			case 113236:
-			c.getPA().sendFrame126("http://trisidiax.betaboard.ca", 12000);
+			c.getPA().sendFrame126("www.Runeape.tk", 12000);
 			break;
                         case 21010:
                         c.takeAsNote = true;
