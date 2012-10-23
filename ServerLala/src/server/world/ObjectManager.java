@@ -580,7 +580,7 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(-1, 2841, 3443, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 2851, 3438, -1, 10);
 		
-		//  Disbaled for now - Need locationg
+		//  Disabled for now - Need location
 		//c.getPA().checkObjectSpawn(8972, 2580, 3102, 0, 10); //Strykeworms portal at spawn
 		
 		// New spawn - Yanille
