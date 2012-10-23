@@ -21,6 +21,9 @@ public boolean IsAttackingPerson = false;
 	public int barrageorb = 0;
 public int attacknpc;
 
+public int focusPointX, focusPointY;
+public boolean turnUpdateRequired;
+
 	/**
 	 * attackType: 0 = melee, 1 = range, 2 = mage, 3 = kbd fire
 	 */
@@ -152,11 +155,13 @@ public int npcslot;
     }
 	
 	public void turnNpc(int i, int j) {
-        FocusPointX = 2 * i + 1;
-        FocusPointY = 2 * j + 1;
-        updateRequired = true;
+	    focusPointX = 2 * i + 1;
+	    focusPointY = 2 * j + 1;
+	    updateRequired = true;
+	    turnUpdateRequired = true;
+	}
+	
 
-    }
 	
 	public void appendFaceEntity(Stream str) {
 		str.writeWord(face);
@@ -194,7 +199,8 @@ public int npcslot;
 		if(dirUpdateRequired) updateMask |= 0x20;
 		if(forcedChatRequired) updateMask |= 1;
 		if(hitUpdateRequired) updateMask |= 0x40;		
-		if(FocusPointX != -1) updateMask |= 4;		
+		if(FocusPointX != -1) updateMask |= 4;
+		if(turnUpdateRequired) updateMask |= 4;
 			
 		str.writeByte(updateMask);
 				
@@ -207,7 +213,7 @@ public int npcslot;
 		}
 		if (hitUpdateRequired)  appendHitUpdate(str);
 		if(FocusPointX != -1) appendSetFocusDestination(str);
-		
+		if(turnUpdateRequired) appendSetFocusDestination(str);
 	}
 
 	public void clearUpdateFlags() {
@@ -224,6 +230,10 @@ public int npcslot;
 		direction = -1;
 		FocusPointX = -1;
 		FocusPointY = -1;
+		
+		focusPointX = -1; 
+		focusPointY = -1; 
+		turnUpdateRequired = false;
 	}
 
 	
@@ -332,4 +342,6 @@ public int CIcon = 0;
 		}
 		return false;
 	}
+	
+	
 }
