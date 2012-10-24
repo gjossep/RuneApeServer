@@ -138,13 +138,14 @@ public class ObjectManager {
                 c.getPA().checkObjectSpawn(2092, 3036, 9836, 0, 10);
                 c.getPA().checkObjectSpawn(2092, 3037, 9836, 0, 10);
 				
-			///Home Objects!	
-		c.getPA().checkObjectSpawn(12356, 2396, 3484, 0, 10); ///Portal at home
-		c.getPA().checkObjectSpawn(2996, 2400, 3495, 2, 10);  ///al key chest
-		c.getPA().checkObjectSpawn(103, 2400, 3481, 0, 10);  ///Squeal Of Fortune Chest
-		c.getPA().checkObjectSpawn(3192, 2403, 3492, 0, 10);  ///hs board
-		c.getPA().checkObjectSpawn(11356, 2396, 3492, 0, 10); ///frost dragon portals
+			//OLD HOME - Donator Objects! - mostly on at new donator location
+	//disabled for now	c.getPA().checkObjectSpawn(12356, 2396, 3484, 0, 10); ///Portal at home
+    //disabled for now c.getPA().checkObjectSpawn(2996, 2400, 3495, 2, 10);  ///al key chest
+	//disabled for now	c.getPA().checkObjectSpawn(103, 2400, 3481, 0, 10);  ///Squeal Of Fortune Chest
+	//disabled for now	c.getPA().checkObjectSpawn(3192, 2403, 3492, -1, 10);  ///hs board
+	//disabled for now	c.getPA().checkObjectSpawn(11356, 2396, 3492, 0, 10); ///frost dragon portals
 		///End of home objects
+                
 		c.getPA().checkObjectSpawn(2403, 2847, 3333, 0, 10);
                 c.getPA().checkObjectSpawn(2103, 3037, 9836, 0, 10);
                 c.getPA().checkObjectSpawn(2103, 3039, 9836, 0, 10);
@@ -267,8 +268,8 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(1, 2597, 4777, 1, 10);
 		c.getPA().checkObjectSpawn(1, 2598, 4777, 1, 10);
 		c.getPA().checkObjectSpawn(2286, 2598, 4778, 1, 10);
-		c.getPA().checkObjectSpawn(12356, 3094, 3487, 1, 10);
-				c.getPA().checkObjectSpawn(2403, 3095, 3487, 2, 10);
+		// portal for minigame disabled for now,	 c.getPA().checkObjectSpawn(12356, 3094, 3487, 1, 10);
+		// chest disabled for right now,		c.getPA().checkObjectSpawn(2403, 3095, 3487, 2, 10);
 	
 		c.getPA().checkObjectSpawn(13617, 2044, 4521, 1, 10); //Barrelportal donor	
 		
@@ -611,7 +612,7 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(11356, 2581, 3102, 0, 10); ///frost dragon portals at spawn
 		c.getPA().checkObjectSpawn(1032, 2580, 3102, -2, 10); //warning sign frost portal
 		c.getPA().checkObjectSpawn(1032, 2583, 3102, -2, 10); //warning sign frost portal
-		
+		c.getPA().checkObjectSpawn(103, 2608, 3097, -1, 10);  //Squeal Of Fortune Chest at home
 		
 		//Skilling Area
 		
@@ -633,6 +634,15 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(4878, 2839, 3444, 0, 10); //Skill Stalls lvl 90 - Thieving
 		
 		//Donater Zone
+		
+		c.getPA().checkObjectSpawn(103, 2400, 3481, 0, 10);  //Squeal Of Fortune Chest at donater zone
+		c.getPA().checkObjectSpawn(3192, 2403, 3492, -2, 10);  //high score board		
+		c.getPA().checkObjectSpawn(12356, 2396, 3484, 0, 10); //Portal at home to mini-game
+		c.getPA().checkObjectSpawn(2996, 2400, 3495, 2, 10);  ///crystal key chest
+		c.getPA().checkObjectSpawn(1032, 2395, 3484, 0, 10); //warning sign frost portal
+		c.getPA().checkObjectSpawn(1032, 2397, 3484, 0, 10); //warning sign frost portal
+		
+		
 		//cords = 2529,4779 - For donator island
 		
 		

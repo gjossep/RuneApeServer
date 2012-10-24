@@ -1206,8 +1206,8 @@ c.getPA().showInterface(6960);
 
 				case 107231:
 				if (c.isDonator == 1) {
-					c.getPA().spellTeleport(2524, 4777, 0);
-					c.sendMessage("<img=0>You teleported to donator Island a place to chill/relax, theres also alot of benefits.<img=0>");
+					c.getPA().spellTeleport(2396, 3488, 0);
+					c.sendMessage("<img=0>You teleported to donator Island a place to relax, theres also alot of benefits.<img=0>");
 				} else {
 					c.sendMessage("You must be an donator to teleport to the donator Island!");
 					return;				

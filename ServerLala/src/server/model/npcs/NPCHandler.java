@@ -1848,8 +1848,8 @@ Server.npcHandler.npcs[npcs[i].attacknpc].attacknpc = i;
 			npcs[i].clearUpdateFlags();
 			if (npcs[i].walkingType == 0) {
 			    switch(npcs[i].npcType) {
-			        case 599: //id of npc
-			        if(npcs[i].absX == 2604 && npcs[i].absY == 3099) { //loc of npc
+			        case 8206: //id of npc
+			        if(npcs[i].absX == 2609 && npcs[i].absY == 3095) { //loc of npc
 			 
 	                /** 
 			         * this turns the npc 
