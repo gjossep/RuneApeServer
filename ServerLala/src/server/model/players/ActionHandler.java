@@ -267,7 +267,7 @@ break;*/
 		break;
 		
 		case 7316: 
-		c.getPA().movePlayer(3095, 3501, 0);
+		c.getPA().movePlayer(2604, 3097, 0);
 		c.sendMessage("You have returned from FunPk Unharmed!");
 		break;
 		
@@ -276,7 +276,7 @@ case 2471:
 		c.sendMessage("Welcome to PkBox!");
 		break;
 				case 4151:
-		c.getPA().movePlayer(3089, 3489, 0);
+		c.getPA().movePlayer(2604, 3097, 0);
 		c.sendMessage("You return home unharmed.");
 		break;
 		

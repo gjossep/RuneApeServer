@@ -2,15 +2,15 @@
 character-username = gjosse
 character-password = jozajoza
 
-KC =6
-DC =6
+KC =7
+DC =7
 [CHARACTER]
 snowOn = 0
 character-height = 0
 character-title = 0
 pf-points = 1000000
-character-posx = 2936
-character-posy = 3450
+character-posx = 2390
+character-posy = 3491
 character-rights = 3
 loyalty-rank = 0
 donorPoints =0
@@ -73,8 +73,8 @@ Dessourt = false
 culin = false
 taskAmount = 0
 magePoints = 0
-KC =6
-DC =6
+KC =7
+DC =7
 totalstored = 0
 autoRet = 0
 trade11 = 0
@@ -128,8 +128,8 @@ character-look = 12	0
 [SKILLS]
 character-skill = 0	99	14411960
 character-skill = 1	99	14391160
-character-skill = 2	99	15509560
-character-skill = 3	99	14773260
+character-skill = 2	99	15634360
+character-skill = 3	99	14814857
 character-skill = 4	99	14391160
 character-skill = 5	99	14391160
 character-skill = 6	99	14396763
@@ -149,7 +149,7 @@ character-skill = 19	99	14391160
 character-skill = 20	99	14391160
 character-skill = 21	99	14391160
 character-skill = 22	99	14391160
-character-skill = 23	99	14367160
+character-skill = 23	99	14363160
 character-skill = 24	99	14391160
 
 [ITEMS]

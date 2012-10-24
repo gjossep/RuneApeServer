@@ -535,13 +535,6 @@ public class ObjectManager {
 	    c.getPA().checkObjectSpawn(14859, 2520, 4773, 0, 10);//runite ore donor.
 		c.getPA().checkObjectSpawn(14859, 2518, 4775, 0, 10);//runite ore donor.
 		c.getPA().checkObjectSpawn(14859, 2518, 4774, 0, 10);//runite ore donor.
-		c.getPA().checkObjectSpawn(13617, 2527, 4770, 2, 10); //Barrelportal donor	
-
-		
-		c.getPA().checkObjectSpawn(13615, 2525, 4770, 2, 10); // hill giants donor
-		c.getPA().checkObjectSpawn(13620, 2523, 4770, 2, 10); // steel drags donor
-		c.getPA().checkObjectSpawn(13619, 2521, 4770, 2, 10); // tormented demons donor
-
 
 		c.getPA().checkObjectSpawn(6163, 2029, 4527, 1, 10);
 		c.getPA().checkObjectSpawn(6165, 2029, 4529, 1, 10);
@@ -641,11 +634,15 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(2996, 2400, 3495, 2, 10);  ///crystal key chest
 		c.getPA().checkObjectSpawn(1032, 2395, 3484, 0, 10); //warning sign frost portal
 		c.getPA().checkObjectSpawn(1032, 2397, 3484, 0, 10); //warning sign frost portal
-		
+		c.getPA().checkObjectSpawn(13617, 2527, 4770, 2, 10); //Barrelportal donor	- add locationg
+		c.getPA().checkObjectSpawn(13615, 2525, 4770, 2, 10); // hill giants donor -add location
+		c.getPA().checkObjectSpawn(13620, 2523, 4770, 2, 10); // steel drags donor - add location
+		c.getPA().checkObjectSpawn(13619, 2521, 4770, 2, 10); // tormented demons donor - add location
+
 		
 		//cords = 2529,4779 - For donator island
-		
-		
+ 
+		//end of donator zone
 		
 	 if (c.heightLevel == 0) {
 			c.getPA().checkObjectSpawn(2492, 2911, 3614, 1, 10);

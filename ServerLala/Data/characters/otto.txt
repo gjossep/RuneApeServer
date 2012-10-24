@@ -9,11 +9,11 @@ snowOn = 1
 character-height = 0
 character-title = 0
 pf-points = 997180
-character-posx = 2394
-character-posy = 3489
+character-posx = 2523
+character-posy = 4771
 character-rights = 3
 loyalty-rank = 0
-donorPoints =1036
+donorPoints =1001
 shopcollect = 0
 dungPoints =0
 crystal-bow-shots = 0
@@ -62,7 +62,7 @@ Sara-KC = 0
 pk-points = 0
 
 isDonator = 1
-Donator-Points = 1036
+Donator-Points = 1001
 donatorChest = 0
 slayerTask = 5000
 xpLock = false
@@ -96,7 +96,7 @@ void = 0	0	0	0	0
 
 [EQUIPMENT]
 character-equip = 0	1038	1	
-character-equip = 1	14642	1	
+character-equip = 1	12743	1	
 character-equip = 2	1725	1	
 character-equip = 3	14484	1	
 character-equip = 4	14479	1	
@@ -169,6 +169,7 @@ character-item = 12	4733	1
 character-item = 13	4739	1
 character-item = 14	11336	1
 character-item = 15	4737	1
+character-item = 16	14643	1
 character-item = 17	4152	1
 character-item = 18	20073	1
 character-item = 19	563	50
@@ -179,6 +180,7 @@ character-item = 23	567	49
 character-item = 24	566	40
 character-item = 25	9076	50
 character-item = 26	4756	1
+character-item = 27	4085	1
 
 [BANK]
 character-bank = 0	7651	1
@@ -195,6 +197,7 @@ character-bank = 10	10417	1
 character-bank = 11	10172	1
 
 [FRIENDS]
+character-friend = 0	504935823
 
 [STORED]
 stored = 0	0
