@@ -1962,10 +1962,18 @@ npcs[i].actionTimer = 7;
 							   if (npcs[i].npcType == 659) { 
                                         if (Misc.random2(2) <= 3) {
                                                 npcs[i].updateRequired = true;
-                                                npcs[i].forceChat("Welcome to the donator zone! Trade me ;)");
+                                                npcs[i].forceChat("Welcome to the donator zone!");
                                         }
                                 }             
 
+
+							   if (npcs[i].npcType == 3022) { 
+                                        if (Misc.random2(2) <= 5) {
+                                                npcs[i].updateRequired = true;
+                                                npcs[i].forceChat("Dangerouse Portals!");
+                                        }
+                                }  
+							   
 				if (npcs[i].actionTimer > 0) {
 					npcs[i].actionTimer--;
                                 }

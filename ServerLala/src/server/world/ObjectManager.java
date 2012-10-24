@@ -634,11 +634,18 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(2996, 2400, 3495, 2, 10);  ///crystal key chest
 		c.getPA().checkObjectSpawn(1032, 2395, 3484, 0, 10); //warning sign frost portal
 		c.getPA().checkObjectSpawn(1032, 2397, 3484, 0, 10); //warning sign frost portal
-		c.getPA().checkObjectSpawn(13617, 2527, 4770, 2, 10); //Barrelportal donor	- add locationg
-		c.getPA().checkObjectSpawn(13615, 2525, 4770, 2, 10); // hill giants donor -add location
-		c.getPA().checkObjectSpawn(13620, 2523, 4770, 2, 10); // steel drags donor - add location
-		c.getPA().checkObjectSpawn(13619, 2521, 4770, 2, 10); // tormented demons donor - add location
-
+		c.getPA().checkObjectSpawn(13617, 2406, 3489, 1, 10); //Barrelportal donor	- add location
+		c.getPA().checkObjectSpawn(13615, 2390, 3494, 2, 10); // hill giants donor -add location
+		c.getPA().checkObjectSpawn(13620, 2390, 3482, 2, 10); // steel drags donor - add location
+		c.getPA().checkObjectSpawn(13619, 2406, 3486, 1, 10); // tormented demons donor - add location
+		c.getPA().checkObjectSpawn(1032, 2406, 3488, -1, 10); //warning sign donator area - middle of purple and red portal
+		c.getPA().checkObjectSpawn(1032, 2406, 3485, -1, 10); //warning sign donator area - right of purple and red portal
+		c.getPA().checkObjectSpawn(1032, 2406, 3491, -1, 10); //warning sign donator area - left of purple and red portal
+		c.getPA().checkObjectSpawn(1032, 2392, 3494, 2, 10); //warning sign donator area - orange portal right
+		c.getPA().checkObjectSpawn(1032, 2389, 3494, 2, 10); //warning sign donator area - orange portal left
+		c.getPA().checkObjectSpawn(1032, 2389, 3482, 0, 10); //warning sign donator area - orange portal right
+		c.getPA().checkObjectSpawn(1032, 2392, 3482, 0, 10); //warning sign donator area - orange portal left
+	
 		
 		//cords = 2529,4779 - For donator island
  
