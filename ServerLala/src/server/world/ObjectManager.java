@@ -613,7 +613,6 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(1032, 2583, 3102, -2, 10); //warning sign frost portal
 		
 		
-		
 		//Skilling Area
 		
 		c.getPA().checkObjectSpawn(3044, 2853, 3424, -1, 10); //Furnace 
