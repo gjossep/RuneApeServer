@@ -645,7 +645,7 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(1032, 2389, 3494, 2, 10); //warning sign donator area - orange portal left
 		c.getPA().checkObjectSpawn(1032, 2389, 3482, 0, 10); //warning sign donator area - orange portal right
 		c.getPA().checkObjectSpawn(1032, 2392, 3482, 0, 10); //warning sign donator area - orange portal left
-	
+		c.getPA().checkObjectSpawn(2213, 2383, 3488, -1, 10); //bank booth at donator zone
 		
 		//cords = 2529,4779 - For donator island
  

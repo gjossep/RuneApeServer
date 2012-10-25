@@ -571,7 +571,7 @@ case 2471:
 			c.getPA().startTeleport2(2271, 4680, 0);			
 		break;
 		case 1817:
-			c.getPA().startTeleport(3086, 3493, 0, "modern");
+			c.getPA().startTeleport(2064, 3097, 0, "modern");
 		break;
 		case 1814:
 			//ardy lever
